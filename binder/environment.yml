@@ -1,0 +1,10 @@
+name: jupyterlab-env-kernel-binder
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab>=4.0
+  - mamba
+  - pip
+  - pip:
+    - jupyterlab-env-kernel
